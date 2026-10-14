@@ -20,3 +20,10 @@ Kami memecah proses ini menjadi beberapa tahapan utama:
 2.  **Data Validation & Retrieval:** [Jelaskan peran SQL/Redis, misalnya: "Sistem memeriksa ketersediaan slot di PostgreSQL"].
 3.  **AI Processing Core:** [Jelaskan tugas AI Agent secara naratif, bukan teknis mentah. Contoh: "Agent bertugas menerjemahkan permintaan klien yang ambigu menjadi parameter booking yang terstruktur."].
 4.  **Action & Finalization:** [Jelaskan bagaimana Google Calendar dan pesan WhatsApp digunakan untuk menyelesaikan transaksi/konfirmasi].
+
+## 🛠️ Technologies Used
+*   N8N (Workflow Automation)
+*   AI Agent / LLM Integration
+*   PostgreSQL / Redis (Data Storage & Caching)
+*   Google API (Calendar Sync)
+*   Docker (Deployment Environment)
