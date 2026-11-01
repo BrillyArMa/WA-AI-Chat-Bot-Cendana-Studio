@@ -28,3 +28,20 @@ AI Agent bukan hanya menjawab pertanyaan, tetapi bertindak sebagai **mesin logik
 5.  **Action & Confirmation:** Setelah logika selesai, sistem mengirimkan balasan yang relevan (informasi harga, konfirmasi slot) kembali ke WhatsApp, sekaligus mencatat event di Google Calendar sebagai *reminder* resmi.
 
 ---
+
+## 🛠️ Technology Stack & Components
+| Komponen | Teknologi | Fungsi Utama |
+| :--- | :--- | :--- |
+| **Orchestrator** | N8N | Menghubungkan semua layanan dan menjalankan alur kerja (workflow). |
+| **Intelligence Core** | AI Agent / LLM | Menganalisis *intent*, melakukan logika bisnis, menghitung harga. |
+| **Memory & History** | PostgreSQL | Menyimpan riwayat interaksi pengguna, kategori pertanyaan, dan data booking. |
+| **Scheduler** | Google Calendar API | Memastikan tidak ada bentrokan jadwal (*slot availability check*) dan membuat notifikasi. |
+| **Deployment** | Docker | Mengemas seluruh aplikasi agar mudah di-deploy dan dikelola secara konsisten. |
+
+## 🔮 Future Scope & Continuous Improvement
+Untuk meningkatkan pengalaman pengguna, rencana pengembangan selanjutnya meliputi:
+*   **Google Forms Integration:** Sebagai *interface* pelaporan booking yang lebih sederhana dan dapat dicetak (menggantikan fungsi sementara Qdrant).
+*   **Advanced FAQ System:** Mengembangkan sistem pencarian pengetahuan yang lebih canggih dari sekadar Google Form.
+
+---
+***[Link ke Repositori Kode Sumber Anda di sini]***
