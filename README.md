@@ -1,29 +1,10 @@
-# 🤖 AI Chatbot Workflow - Cendana Music Studio
-
+# 🤖 AI Booking System - Cendana Music Studio
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)]()
 
-## 🚀 Overview: Mengotomatisasi Proses Booking Musik
-[Paragraf singkat yang menjelaskan masalah bisnis dan bagaimana solusi ini menyelesaikannya, menggunakan bahasa profesional.]
+## 💡 Project Overview: Mengubah Interaksi Bisnis Menjadi Otomatisasi Cerdas
+Cendana Music Studio menghadapi tantangan dalam mengelola *booking* studio, menjawab pertanyaan umum (harga, jadwal), dan menangani komplain secara efisien melalui WhatsApp. Proyek ini adalah solusi **Intelligent Automation** yang menggunakan AI Agent untuk menjadi "front-office" digital 24/7.
 
-## ⚙️ Technical Deep Dive: N8N Workflow Architecture
-[Bagian ini adalah inti presentasi Anda.]
+Kami berhasil mengubah interaksi chat pengguna yang bersifat natural menjadi proses bisnis terstruktur, menghasilkan penghematan biaya operasional sebesar Rp120.000/bulan dan peningkatan efisiensi hingga 87%.
 
-### 🖼️ Visualisasi Alur Kerja
-*(Di sini saya akan menempatkan gambar workflow N8N yang sudah dioptimalkan)*
-![Diagram Alir Otomatisasi Booking](path/to/your_n8n_image.png)
-
-### 🧠 Workflow Breakdown (Step-by-Step Explanation)
-Kami memecah proses ini menjadi beberapa tahapan utama:
-
-1.  **Trigger & Ingestion:** [Jelaskan Webhook dan bagaimana data masuk].
-2.  **Data Validation & Retrieval:** [Jelaskan peran SQL/Redis, misalnya: "Sistem memeriksa ketersediaan slot di PostgreSQL"].
-3.  **AI Processing Core:** [Jelaskan tugas AI Agent secara naratif, bukan teknis mentah. Contoh: "Agent bertugas menerjemahkan permintaan klien yang ambigu menjadi parameter booking yang terstruktur."].
-4.  **Action & Finalization:** [Jelaskan bagaimana Google Calendar dan pesan WhatsApp digunakan untuk menyelesaikan transaksi/konfirmasi].
-
-## 🛠️ Technologies Used
-*   N8N (Workflow Automation)
-*   AI Agent / LLM Integration
-*   PostgreSQL / Redis (Data Storage & Caching)
-*   Google API (Calendar Sync)
-*   Docker (Deployment Environment)
+---
