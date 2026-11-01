@@ -8,3 +8,10 @@ Cendana Music Studio menghadapi tantangan dalam mengelola *booking* studio, menj
 Kami berhasil mengubah interaksi chat pengguna yang bersifat natural menjadi proses bisnis terstruktur, menghasilkan penghematan biaya operasional sebesar Rp120.000/bulan dan peningkatan efisiensi hingga 87%.
 
 ---
+
+## ⚙️ Technical Deep Dive: Arsitektur Sistem
+Sistem ini dirancang sebagai *micro-workflow* yang sangat modular, di mana N8N bertindak sebagai orkestrator utama yang menghubungkan semua layanan.
+
+### 🖼️ Visualisasi Workflow (The Orchestration)
+*(Ganti path/to/your_n8n_image.png dengan lokasi gambar Anda)*
+![Diagram Alir Otomatisasi Booking Cendana Music Studio](path/to/your_n8n_image.png)
